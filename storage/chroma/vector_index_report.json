@@ -1,0 +1,19 @@
+{
+  "total_chunks_loaded": 398,
+  "total_vectors_indexed": 398,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "vector_store_path": "/Users/sleep/WITSAICopilot/storage/chroma",
+  "collection_name": "wits_policy_chunks",
+  "build_status": "success",
+  "example_queries": [
+    "內線交易",
+    "重大資訊",
+    "關係人交易",
+    "資金貸與",
+    "背書保證",
+    "檢舉內部舞弊",
+    "風險管理",
+    "衍生性商品交易"
+  ],
+  "created_at": "2026-07-07T08:42:06.598659+00:00"
+}
