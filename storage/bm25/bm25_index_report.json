@@ -1,9 +1,0 @@
-{
-  "total_chunks_loaded": 398,
-  "total_documents_indexed": 398,
-  "index_path": "/Users/sleep/WITSAICopilot/storage/bm25/bm25_index.pkl",
-  "storage_path": "/Users/sleep/WITSAICopilot/storage/bm25",
-  "build_status": "success",
-  "tokenizer": "known compliance phrases + Chinese bigrams + English/alphanumeric terms",
-  "created_at": "2026-07-07T08:53:40.508672+00:00"
-}
