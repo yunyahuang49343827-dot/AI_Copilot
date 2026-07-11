@@ -1,0 +1,1491 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-07T13:26:13.804839+00:00",
+    "gold_set_path": "evaluation/gold_set.jsonl",
+    "top_k": 5,
+    "total_examples": 30,
+    "ok_examples": 30,
+    "error_examples": 0
+  },
+  "retrieval_metrics": {
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "precision_at_5": 0.25925925925925936,
+    "recall_at_5": 0.7283950617283951,
+    "mrr": 1.0,
+    "ndcg_at_5": 0.7863975744200047
+  },
+  "workflow_metrics": {
+    "risk_accuracy": 0.9333333333333333,
+    "category_accuracy": 0.9333333333333333,
+    "insufficient_evidence_accuracy": 0.9333333333333333,
+    "citation_coverage": 1.0,
+    "checklist_presence_accuracy": 0.9
+  },
+  "per_example_results": [
+    {
+      "id": "EVAL-001",
+      "query": "公司還沒公告重大資訊，可以買股票嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-018",
+        "WITS-009"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-009",
+        "WITS-018",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Insider Trading / Material Non-Public Information",
+        "Internal Material Information / Disclosure"
+      ],
+      "actual_category": "Insider Trading / Material Non-Public Information",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-002",
+      "query": "我知道公司即將發布重大消息，能不能先提醒朋友買股票？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-018",
+        "WITS-009"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-018"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Insider Trading / Material Non-Public Information",
+        "Internal Material Information / Disclosure"
+      ],
+      "actual_category": "Insider Trading / Material Non-Public Information",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-003",
+      "query": "重大資訊公告前十八小時內，內部人可以交易有價證券嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-018",
+        "WITS-009"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-009",
+        "WITS-018",
+        "WITS-013"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Insider Trading / Material Non-Public Information",
+        "Internal Material Information / Disclosure"
+      ],
+      "actual_category": "Insider Trading / Material Non-Public Information",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-004",
+      "query": "內部重大資訊處理時，哪些人需要注意保密與揭露程序？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-009",
+        "WITS-018"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-009"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Internal Material Information / Disclosure",
+        "Insider Trading / Material Non-Public Information"
+      ],
+      "actual_category": "Insider Trading / Material Non-Public Information",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-005",
+      "query": "如果主管要求我在重大消息公開前處理股票交易，我應該怎麼辦？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-018",
+        "WITS-009",
+        "WITS-021"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-018"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Insider Trading / Material Non-Public Information",
+        "Whistleblowing / Fraud Reporting"
+      ],
+      "actual_category": "Insider Trading / Material Non-Public Information",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-006",
+      "query": "我想檢舉內部舞弊，應該提供哪些資料？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-021",
+        "WITS-001",
+        "WITS-002"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-001",
+        "WITS-021",
+        "WITS-002",
+        "WITS-018"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Whistleblowing / Fraud Reporting",
+        "Ethical Conduct / Conflict of Interest"
+      ],
+      "actual_category": "Whistleblowing / Fraud Reporting",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.6,
+        "precision_at_5": 0.6,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-007",
+      "query": "如果我發現同仁違反誠信經營規範，可以透過什麼管道通報？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-021",
+        "WITS-002",
+        "WITS-001"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-002",
+        "WITS-021"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Whistleblowing / Fraud Reporting",
+        "Ethical Conduct / Conflict of Interest"
+      ],
+      "actual_category": "Whistleblowing / Fraud Reporting",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 0.6666666666666666,
+        "recall_at_5": 0.6666666666666666,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.7653606369886217,
+        "ndcg_at_5": 0.7653606369886217,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-008",
+      "query": "檢舉案件會不會保密？公司如何保護檢舉人？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-021",
+        "WITS-002"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-021",
+        "WITS-001",
+        "WITS-002",
+        "WITS-013"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Whistleblowing / Fraud Reporting"
+      ],
+      "actual_category": "Whistleblowing / Fraud Reporting",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.9197207891481876,
+        "ndcg_at_5": 0.9197207891481876,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-009",
+      "query": "匿名舉報供應商收回扣，需要準備什麼證據？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-021",
+        "WITS-002"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-021",
+        "WITS-001"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Whistleblowing / Fraud Reporting",
+        "Ethical Conduct / Conflict of Interest"
+      ],
+      "actual_category": "Whistleblowing / Fraud Reporting",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-010",
+      "query": "收到客戶送禮但懷疑涉及不當利益，是否應該申訴或通報？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-001",
+        "WITS-002",
+        "WITS-021"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-001",
+        "WITS-002",
+        "WITS-020",
+        "WITS-008"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Ethical Conduct / Conflict of Interest",
+        "Whistleblowing / Fraud Reporting"
+      ],
+      "actual_category": "Whistleblowing / Fraud Reporting",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 0.6666666666666666,
+        "recall_at_5": 0.6666666666666666,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.7653606369886217,
+        "ndcg_at_5": 0.7653606369886217,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-011",
+      "query": "關係人交易需要董事會核准嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005",
+        "WITS-010",
+        "WITS-004"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Related-Party Transaction",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Related-Party Transaction",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-012",
+      "query": "與集團企業交易前，需要確認哪些關係人資訊？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Related-Party Transaction"
+      ],
+      "actual_category": "Related-Party Transaction",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-013",
+      "query": "關係企業之間採購服務，應該注意交易條件是否合理嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005",
+        "WITS-002"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Related-Party Transaction",
+        "Ethical Conduct / Conflict of Interest"
+      ],
+      "actual_category": "Related-Party Transaction",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-014",
+      "query": "特定公司或關係人交易要提交哪些資料給審核單位？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Related-Party Transaction"
+      ],
+      "actual_category": "Related-Party Transaction",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 5,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-015",
+      "query": "和董事控制的公司進行資產交易，應該同時看哪些政策？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005",
+        "WITS-004",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005",
+        "WITS-013"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Related-Party Transaction",
+        "Asset Acquisition or Disposal",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": true,
+      "citation_count": 5,
+      "checklist_count": 3,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 0.0,
+        "category_accuracy": 0.0,
+        "insufficient_evidence_accuracy": 0.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-016",
+      "query": "衍生性商品交易可以投機嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-006",
+        "WITS-004"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-006",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Derivative Trading / Hedging Control"
+      ],
+      "actual_category": "Derivative Trading / Hedging Control",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.4,
+        "precision_at_5": 0.4,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-017",
+      "query": "公司做遠期外匯或選擇權交易前，要確認避險目的嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-006"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-006",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "Medium",
+      "expected_category": [
+        "Derivative Trading / Hedging Control"
+      ],
+      "actual_category": "Derivative Trading / Hedging Control",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-018",
+      "query": "非避險性交易如果想例外辦理，需要哪些核准或審查？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-006",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-006",
+        "WITS-005",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Derivative Trading / Hedging Control",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Derivative Trading / Hedging Control",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-019",
+      "query": "衍生性商品交易的交易策略應該由哪些內控程序支持？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-006"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-006",
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "Medium",
+      "expected_category": [
+        "Derivative Trading / Hedging Control"
+      ],
+      "actual_category": "Derivative Trading / Hedging Control",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 6,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-020",
+      "query": "公司資金貸與他人時，需要董事會決議嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-008",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-008"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Funds Lending",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Funds Lending",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-021",
+      "query": "資金貸與對象和額度應該如何審查？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-008"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-008"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Funds Lending"
+      ],
+      "actual_category": "Funds Lending",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-022",
+      "query": "公司替子公司背書保證，需要注意哪些程序？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-007",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-007"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Endorsement and Guarantee",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Endorsement and Guarantee",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-023",
+      "query": "背書保證超過限額時，應該如何處理？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-007"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-007"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Endorsement and Guarantee"
+      ],
+      "actual_category": "Endorsement and Guarantee",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-024",
+      "query": "公司取得或處分重大資產時，需要走哪些程序？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-004",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High",
+        "Medium"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Asset Acquisition or Disposal",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Asset Acquisition or Disposal",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.5,
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.6131471927654584,
+        "ndcg_at_5": 0.6131471927654584,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-025",
+      "query": "出售不動產或設備前，需要評估交易價格合理性嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-004"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium",
+        "High"
+      ],
+      "actual_risk": "High",
+      "expected_category": [
+        "Asset Acquisition or Disposal"
+      ],
+      "actual_category": "Asset Acquisition or Disposal",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-026",
+      "query": "取得有價證券或金融資產時，應該參考哪個作業程序？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-004"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-004"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Medium"
+      ],
+      "actual_risk": "Medium",
+      "expected_category": [
+        "Asset Acquisition or Disposal"
+      ],
+      "actual_category": "Asset Acquisition or Disposal",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": false,
+      "citation_count": 5,
+      "checklist_count": 4,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "ndcg_at_5": 1.0,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-027",
+      "query": "資產交易如果同時涉及關係人，應該如何交叉檢查？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-004",
+        "WITS-005",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Asset Acquisition or Disposal",
+        "Related-Party Transaction",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "expected_should_be_insufficient": false,
+      "actual_should_be_insufficient": true,
+      "citation_count": 5,
+      "checklist_count": 3,
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 0.0,
+        "category_accuracy": 0.0,
+        "insufficient_evidence_accuracy": 0.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-028",
+      "query": "公司政策有沒有提到員工旅遊補助？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [],
+      "retrieved_policy_ids": [
+        "WITS-013",
+        "WITS-020"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Insufficient Evidence"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Unknown or Insufficient Evidence"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "expected_should_be_insufficient": true,
+      "actual_should_be_insufficient": true,
+      "citation_count": 5,
+      "checklist_count": 3,
+      "metrics": {
+        "hit_at_k": null,
+        "hit_at_1": null,
+        "hit_at_3": null,
+        "hit_at_5": null,
+        "precision_at_k": null,
+        "precision_at_5": null,
+        "recall_at_k": null,
+        "recall_at_5": null,
+        "mrr": null,
+        "ndcg_at_k": null,
+        "ndcg_at_5": null,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": null,
+        "checklist_presence_accuracy": 0.0
+      }
+    },
+    {
+      "id": "EVAL-029",
+      "query": "今天 Brisbane 天氣怎麼樣？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [],
+      "retrieved_policy_ids": [
+        "WITS-020",
+        "WITS-004",
+        "WITS-003"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Insufficient Evidence"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Unknown or Insufficient Evidence"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "expected_should_be_insufficient": true,
+      "actual_should_be_insufficient": true,
+      "citation_count": 5,
+      "checklist_count": 3,
+      "metrics": {
+        "hit_at_k": null,
+        "hit_at_1": null,
+        "hit_at_3": null,
+        "hit_at_5": null,
+        "precision_at_k": null,
+        "precision_at_5": null,
+        "recall_at_k": null,
+        "recall_at_5": null,
+        "mrr": null,
+        "ndcg_at_k": null,
+        "ndcg_at_5": null,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": null,
+        "checklist_presence_accuracy": 0.0
+      }
+    },
+    {
+      "id": "EVAL-030",
+      "query": "可以推薦我附近好吃的餐廳嗎？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [],
+      "retrieved_policy_ids": [
+        "WITS-004",
+        "WITS-008",
+        "WITS-013",
+        "WITS-020"
+      ],
+      "retrieved_top_k": 5,
+      "expected_risk": [
+        "Insufficient Evidence"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Unknown or Insufficient Evidence"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "expected_should_be_insufficient": true,
+      "actual_should_be_insufficient": true,
+      "citation_count": 5,
+      "checklist_count": 3,
+      "metrics": {
+        "hit_at_k": null,
+        "hit_at_1": null,
+        "hit_at_3": null,
+        "hit_at_5": null,
+        "precision_at_k": null,
+        "precision_at_5": null,
+        "recall_at_k": null,
+        "recall_at_5": null,
+        "mrr": null,
+        "ndcg_at_k": null,
+        "ndcg_at_5": null,
+        "risk_accuracy": 1.0,
+        "category_accuracy": 1.0,
+        "insufficient_evidence_accuracy": 1.0,
+        "citation_coverage": null,
+        "checklist_presence_accuracy": 0.0
+      }
+    }
+  ],
+  "failed_examples": [
+    {
+      "id": "EVAL-015",
+      "query": "和董事控制的公司進行資產交易，應該同時看哪些政策？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-005",
+        "WITS-004",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005",
+        "WITS-013"
+      ],
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Related-Party Transaction",
+        "Asset Acquisition or Disposal",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 0.0,
+        "category_accuracy": 0.0,
+        "insufficient_evidence_accuracy": 0.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    },
+    {
+      "id": "EVAL-027",
+      "query": "資產交易如果同時涉及關係人，應該如何交叉檢查？",
+      "status": "ok",
+      "error": null,
+      "expected_policy_ids": [
+        "WITS-004",
+        "WITS-005",
+        "WITS-010"
+      ],
+      "retrieved_policy_ids": [
+        "WITS-005"
+      ],
+      "expected_risk": [
+        "High"
+      ],
+      "actual_risk": "Insufficient Evidence",
+      "expected_category": [
+        "Asset Acquisition or Disposal",
+        "Related-Party Transaction",
+        "Board Approval / Governance Procedure"
+      ],
+      "actual_category": "Unknown or Insufficient Evidence",
+      "metrics": {
+        "hit_at_k": 1.0,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "precision_at_k": 0.2,
+        "precision_at_5": 0.2,
+        "recall_at_k": 0.3333333333333333,
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.46927872602275644,
+        "ndcg_at_5": 0.46927872602275644,
+        "risk_accuracy": 0.0,
+        "category_accuracy": 0.0,
+        "insufficient_evidence_accuracy": 0.0,
+        "citation_coverage": 1.0,
+        "checklist_presence_accuracy": 1.0
+      }
+    }
+  ],
+  "missing_gold_policy_examples": [],
+  "validation_warnings": []
+}
