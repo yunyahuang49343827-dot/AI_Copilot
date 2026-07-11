@@ -1,0 +1,22 @@
+doc_id,file_name,policy_name,policy_family,subdomain,version,effective_date,confidentiality_label,language,source_type
+WITS-001,GCHX001V2.0_道德行為準則_20171226.pdf,道德行為準則,Ethics and integrity,Gift and hospitality,V2.0,2017-12-26,Public,Traditional Chinese,Public PDF
+WITS-002,GCHX002V3.0_誠信經營守則_20201221.pdf,誠信經營守則,Ethics and integrity,Anti-corruption / integrity operations,V3.0,2020-12-21,Public,Traditional Chinese,Public PDF
+WITS-003,GengMingWeiZhiKeJiGCM3004V.1.0FengXianGuanLiZhengCeYuChengXu_20220804.pdf,風險管理政策與程序,Risk management,Risk management report,V1.0,2022-08-04,Public,Traditional Chinese,Public PDF
+WITS-004,TTF1001V.11_QuDeHuoChuFenZiChanChuLiChengXu_20250527.pdf,取得或處分資產處理程序,Financial control,Asset acquisition or disposal,V11,2025-05-27,Public,Traditional Chinese,Public PDF
+WITS-005,TTF1004V5.0__YuTeDingGongSiJiTuanQiYeJiGuanXiRenJiaoYiGuanLiBanFa_20241107.pdf,與特定公司集團企業及關係人交易管理辦法,Related-party transactions,Related-party transaction,V5.0,2024-11-07,Public,Traditional Chinese,Public PDF
+WITS-006,TTF3002V2.0_CongShiYanShengXingShangPinJiaoYiChuLiGuiFan_20180621.pdf,從事衍生性商品交易處理規範,Financial control,Derivatives,V2.0,2018-06-21,Public,Traditional Chinese,Public PDF
+WITS-007,TTF3003V6.0_BeiShuBaoZhengZuoYeChengXu_20190624.pdf,背書保證作業程序,Financial control,Endorsements and guarantees,V6.0,2019-06-24,Public,Traditional Chinese,Public PDF
+WITS-008,TTF3004V.10_ZiJinDaiYuTaRenZuoYeChengXu_20210723.pdf,資金貸與他人作業程序,Financial control,Loans to others,V10,2021-07-23,Public,Traditional Chinese,Public PDF
+WITS-009,TTF3006V1.0_NeiBuZhongDaZiXunChuLiZuoYeChengXu_20221103.pdf,內部重大資訊處理作業程序,Market disclosure and trading compliance,Material information,V1.0,2022-11-03,Public,Traditional Chinese,Public PDF
+WITS-010,TTF4001V10.0_DongShiHuiYiShiGuiFan_20240806.pdf,董事會議事規範,Corporate governance,Board meetings,V10.0,2024-08-06,Public,Traditional Chinese,Public PDF
+WITS-011,TTF4003V3.0_DongShiXuanJuBanFa_20210723.pdf,董事選舉辦法,Corporate governance,Director election,V3.0,2021-07-23,Public,Traditional Chinese,Public PDF
+WITS-012,TTF4005V4.0_ShenJiWeiYuanHuiZuZhiGuiCheng_20240806.pdf,審計委員會組織規程,Corporate governance,Audit committee,V4.0,2024-08-06,Public,Traditional Chinese,Public PDF
+WITS-013,TTF4006V5.0_GongSiZhiLiShiWuShouZe_20231107.pdf,公司治理實務守則,Corporate governance,Governance practices,V5.0,2023-11-07,Public,Traditional Chinese,Public PDF
+WITS-014,TTF4007V2.0_TiMingWeiYuanHuiZuZhiGuiCheng_20220609.pdf,提名委員會組織規程,Corporate governance,Nomination committee,V2.0,2022-06-09,Public,Traditional Chinese,Public PDF
+WITS-015,TTF5001V40.0_GongSiZhangCheng_20260527.pdf,公司章程,Corporate governance,Articles of incorporation,V40.0,2026-05-27,Public,Traditional Chinese,Public PDF
+WITS-016,TTF5003V6.0_GuDongHuiYiShiGuiZe_20220526.pdf,股東會議事規則,Corporate governance,Shareholder meetings,V6.0,2022-05-26,Public,Traditional Chinese,Public PDF
+WITS-017,TTH4001V4.0_薪資報酬委員會組織規程_20200512.pdf,薪資報酬委員會組織規程,Corporate governance,Compensation committee,V4.0,2020-05-12,Public,Traditional Chinese,Public PDF
+WITS-018,TTM2001V_4.0_FangFanNeiXianJiaoYiGuanLiChengXu_20171226.pdf,防範內線交易管理程序,Market disclosure and trading compliance,Insider trading,TBD,2017-12-26,Public,Traditional Chinese,Public PDF
+WITS-019,TTMX001V1.0_QiYeYongXuWeiYuanHuiZuZhiGuiCheng_20220609_cFqB4m3.pdf,企業永續委員會組織規程,Sustainability,Sustainability committee,V1.0,2022-06-09,Public,Traditional Chinese,Public PDF
+WITS-020,TTMX002V3.0_YongXuFaZhanShiWuShouZe_20220609_0dKKI2q.pdf,永續發展實務守則,Sustainability,Sustainability practices,V3.0,2022-06-09,Public,Traditional Chinese,Public PDF
+WITS-021,舉報制度_-_2020.06.09-初版繁體.pdf,舉報制度,Ethics and integrity,Whistleblowing,TBD,2020-06-09,Public,Traditional Chinese,Public PDF

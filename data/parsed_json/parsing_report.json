@@ -1,0 +1,178 @@
+{
+  "total_pdfs_found": 21,
+  "total_success": 21,
+  "total_failed": 0,
+  "output_folder": "/Users/sleep/WITSAICopilot/data/parsed_json",
+  "per_file_status": [
+    {
+      "document_id": "WITS-001",
+      "file_name": "GCHX001V2.0_道德行為準則_20171226.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-001.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4070
+    },
+    {
+      "document_id": "WITS-002",
+      "file_name": "GCHX002V3.0_誠信經營守則_20201221.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-002.json",
+      "extraction_status": "success",
+      "total_pages": 6,
+      "characters_extracted": 4463
+    },
+    {
+      "document_id": "WITS-003",
+      "file_name": "GengMingWeiZhiKeJiGCM3004V.1.0FengXianGuanLiZhengCeYuChengXu_20220804.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-003.json",
+      "extraction_status": "success",
+      "total_pages": 3,
+      "characters_extracted": 2028
+    },
+    {
+      "document_id": "WITS-004",
+      "file_name": "TTF1001V.11_QuDeHuoChuFenZiChanChuLiChengXu_20250527.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-004.json",
+      "extraction_status": "success",
+      "total_pages": 11,
+      "characters_extracted": 14757
+    },
+    {
+      "document_id": "WITS-005",
+      "file_name": "TTF1004V5.0__YuTeDingGongSiJiTuanQiYeJiGuanXiRenJiaoYiGuanLiBanFa_20241107.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-005.json",
+      "extraction_status": "success",
+      "total_pages": 3,
+      "characters_extracted": 2898
+    },
+    {
+      "document_id": "WITS-006",
+      "file_name": "TTF3002V2.0_CongShiYanShengXingShangPinJiaoYiChuLiGuiFan_20180621.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-006.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 2790
+    },
+    {
+      "document_id": "WITS-007",
+      "file_name": "TTF3003V6.0_BeiShuBaoZhengZuoYeChengXu_20190624.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-007.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4364
+    },
+    {
+      "document_id": "WITS-008",
+      "file_name": "TTF3004V.10_ZiJinDaiYuTaRenZuoYeChengXu_20210723.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-008.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4104
+    },
+    {
+      "document_id": "WITS-009",
+      "file_name": "TTF3006V1.0_NeiBuZhongDaZiXunChuLiZuoYeChengXu_20221103.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-009.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 3126
+    },
+    {
+      "document_id": "WITS-010",
+      "file_name": "TTF4001V10.0_DongShiHuiYiShiGuiFan_20240806.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-010.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4909
+    },
+    {
+      "document_id": "WITS-011",
+      "file_name": "TTF4003V3.0_DongShiXuanJuBanFa_20210723.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-011.json",
+      "extraction_status": "success",
+      "total_pages": 1,
+      "characters_extracted": 1096
+    },
+    {
+      "document_id": "WITS-012",
+      "file_name": "TTF4005V4.0_ShenJiWeiYuanHuiZuZhiGuiCheng_20240806.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-012.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4183
+    },
+    {
+      "document_id": "WITS-013",
+      "file_name": "TTF4006V5.0_GongSiZhiLiShiWuShouZe_20231107.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-013.json",
+      "extraction_status": "success",
+      "total_pages": 11,
+      "characters_extracted": 13100
+    },
+    {
+      "document_id": "WITS-014",
+      "file_name": "TTF4007V2.0_TiMingWeiYuanHuiZuZhiGuiCheng_20220609.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-014.json",
+      "extraction_status": "success",
+      "total_pages": 3,
+      "characters_extracted": 2787
+    },
+    {
+      "document_id": "WITS-015",
+      "file_name": "TTF5001V40.0_GongSiZhangCheng_20260527.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-015.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4374
+    },
+    {
+      "document_id": "WITS-016",
+      "file_name": "TTF5003V6.0_GuDongHuiYiShiGuiZe_20220526.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-016.json",
+      "extraction_status": "success",
+      "total_pages": 3,
+      "characters_extracted": 3228
+    },
+    {
+      "document_id": "WITS-017",
+      "file_name": "TTH4001V4.0_薪資報酬委員會組織規程_20200512.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-017.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 4438
+    },
+    {
+      "document_id": "WITS-018",
+      "file_name": "TTM2001V_4.0_FangFanNeiXianJiaoYiGuanLiChengXu_20171226.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-018.json",
+      "extraction_status": "success",
+      "total_pages": 4,
+      "characters_extracted": 3203
+    },
+    {
+      "document_id": "WITS-019",
+      "file_name": "TTMX001V1.0_QiYeYongXuWeiYuanHuiZuZhiGuiCheng_20220609_cFqB4m3.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-019.json",
+      "extraction_status": "success",
+      "total_pages": 3,
+      "characters_extracted": 2163
+    },
+    {
+      "document_id": "WITS-020",
+      "file_name": "TTMX002V3.0_YongXuFaZhanShiWuShouZe_20220609_0dKKI2q.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-020.json",
+      "extraction_status": "success",
+      "total_pages": 6,
+      "characters_extracted": 4609
+    },
+    {
+      "document_id": "WITS-021",
+      "file_name": "舉報制度_-_2020.06.09-初版繁體.pdf",
+      "output_file": "/Users/sleep/WITSAICopilot/data/parsed_json/WITS-021.json",
+      "extraction_status": "success",
+      "total_pages": 2,
+      "characters_extracted": 1122
+    }
+  ],
+  "total_pages_extracted": 92,
+  "total_characters_extracted": 91812
+}
